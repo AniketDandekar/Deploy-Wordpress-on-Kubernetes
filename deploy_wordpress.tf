@@ -1,7 +1,7 @@
 # Terraform file for launching wordpress container on kubernetes in local system
 
 
-# provider block
+# provider block for launching wordpress pod
 provider "kubernetes" {
     config_context = "minikube"
 }
@@ -39,6 +39,7 @@ resource "kubernetes_deployment" "wps" {
  }
 }
 
+# resource block to expose wordpess service to public
 resource "kubernetes_service" "wordpress_svc" {
 metadata {
     name = "expose_wordpress"
