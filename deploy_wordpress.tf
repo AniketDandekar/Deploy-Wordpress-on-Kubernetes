@@ -1,4 +1,4 @@
-# Terraform file for launching wordpress container on kubernetes
+# Terraform file for launching wordpress container on kubernetes in local system
 
 
 # provider block
