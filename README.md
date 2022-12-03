@@ -1,1 +1,1 @@
-# Deploy-Wordpress-on-Kubernetes-
+# Deploy-Wordpress-on-Kubernetes
