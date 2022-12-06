@@ -1,6 +1,6 @@
 provider "aws" {
   region = "ap-south-1"
-  profile = "xxxx"    #<---- type your aws profile_name inside double cote
+  profile = "jenkins"    #<---- type your aws profile_name inside double cote
 }
 
 resource "aws_db_instance" "default" {
